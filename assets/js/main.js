@@ -1,4 +1,8 @@
-//Cllif JS
+$(function (){
+
+	$('.page').maximage();
+
+	//Pegando Altura
 	var height = document.documentElement.clientHeight;
 	//Colocar valor no elento
 	if(height > 600){
@@ -8,4 +12,5 @@
 	}else{
 		//Nada
 	}
-	
+
+});
