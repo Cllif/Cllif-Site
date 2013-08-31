@@ -83,7 +83,7 @@
 }
 
 /* Nos */
-.nos{background-color: #eee;}
+.nos{background-color: #eee; height: 847px !important;}
 
 .logo-nos{
 	height: 116px;
@@ -110,20 +110,23 @@
 
 .bola-cllifer-in{
 	border-radius: 50%;
-	height: 160px;
+	height: 158px;
 	left: 50%;
-	margin-left: -80px;
-	margin-top: -80px;
+	margin-left: -79px;
+	margin-top: -79px;
 	position: absolute;
-	width: 160px;
+	width: 159px;
 	top: 50%;
 }
 
-.taina{right: 0; top: 218px;}
+.taina{right: 49px; top: 159px;}
 #taina-pic{background: url("../img/comp/cliffers/taina.png") no-repeat;}
 
-.julio{right: 0; top: 436px;}
+.julio{right: 161px; top: 380px;}
 #julio-pic{background: url("../img/comp/cliffers/julio.png") no-repeat;}
 
-.victor{right: 94px; top: 639px;}
+.victor{right: 361px; top: 560px;}
 #victor-pic{background: url("../img/comp/cliffers/victor.png") no-repeat;}
+
+.vinicius{right: 631px; top: 662px;}
+#vinicius-pic{background: url("../img/comp/cliffers/vinicius.png") no-repeat;}
