@@ -1,6 +1,6 @@
 $(function (){
 
-	$('.page').maximage();
+	$('#bg-home').maximage();
 
 	//Pegando Altura
 	var height = document.documentElement.clientHeight;
