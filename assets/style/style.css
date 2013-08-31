@@ -120,10 +120,10 @@
 }
 
 .taina{right: 0; top: 218px;}
-#taina-pic{background-image: url("../img/comp/cliffers/taina.png");}
+#taina-pic{background: url("../img/comp/cliffers/taina.png") no-repeat;}
 
 .julio{right: 0; top: 436px;}
-#julio-pic{background-image: url("../img/comp/cliffers/julio.png");}
+#julio-pic{background: url("../img/comp/cliffers/julio.png") no-repeat;}
 
 .victor{right: 94px; top: 639px;}
-#victor-pic{background-image: url("../img/comp/cliffers/victor.png");}
+#victor-pic{background: url("../img/comp/cliffers/victor.png") no-repeat;}
