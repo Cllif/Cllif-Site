@@ -100,6 +100,28 @@ body{font-family: 'corbertregular'}
 	position: absolute;
 	width: 413px;
 }
+.bola-content-aspa{
+	position: absolute;
+	width: 73px;
+	height: 55px;
+}
+#bola-content-aspa-top{
+	background: url("../img/comp/aspa.png");
+	left: 80px;
+	top: 70px;
+}
+#bola-content-aspa-bottom{
+	background: url("../img/comp/aspa2.png");
+	left: 250px;
+	top: 300px;
+}
+#bola-content-txt{
+	position: absolute;
+	text-align: center;
+	width: 380px;
+	top: 140px;
+	left: 15px;
+}
 
 .bola-cllifer{
 	border: 1px solid #000;
