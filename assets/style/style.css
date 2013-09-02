@@ -15,6 +15,7 @@
 /* Comp */
 body{font-family: 'corbertregular'}
 .center{margin-left: auto; margin-right: auto;}
+a, a:link, a:active{color: #aaa; text-decoration: none;}
 
 .transform{
 	-webkit-transition: all .3s ease-in-out;
@@ -156,7 +157,7 @@ body{font-family: 'corbertregular'}
 
 
 /* Clientes */
-.clientes{background-color: #333; min-height: 674px;}
+.clientes{background-color: #333; min-height: 815px;}
 
 .clientes-title{
 	position: relative;
@@ -170,3 +171,5 @@ body{font-family: 'corbertregular'}
 	margin: 0;
 }
 
+.clientes a a:link a:active{color: #aaa; text-decoration: none;}
+.clientes a:hover{text-decoration: underline;}
