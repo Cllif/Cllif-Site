@@ -180,6 +180,16 @@ Posters and still images
   background-image: url("../img/clientes/logo/ipanfleto.jpg");
 }
 
+.scene:nth-child(4) .poster {
+  background-image: url("../img/clientes/logo/franco-campos.jpg");
+}
+
+.scene:nth-child(5) .poster {
+  background-image: url("../img/clientes/logo/kapital.jpg");
+}
+
+
+
 .scene:nth-child(1) .info header {
 	background-image: url("../img/clientes/print/rolls.jpg");
 	background-size: 100%;
@@ -192,6 +202,16 @@ Posters and still images
 
 .scene:nth-child(3) .info header {
 	background-image: url("../img/clientes/print/ipan.jpg");
+	background-size: 100%;
+}
+
+.scene:nth-child(4) .info header {
+	background-image: url("../img/clientes/print/franco.jpg");
+	background-size: 100%;
+}
+
+.scene:nth-child(5) .info header {
+	background-image: url("../img/clientes/print/kapital.jpg");
 	background-size: 100%;
 }
 
