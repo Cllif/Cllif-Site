@@ -173,11 +173,11 @@ Posters and still images
 }
 
 .scene:nth-child(2) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url("../img/clientes/logo/gastronomia.jpg");
 }
 
 .scene:nth-child(3) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url("../img/clientes/logo/ipanfleto.jpg");
 }
 
 .scene:nth-child(1) .info header {
@@ -186,11 +186,13 @@ Posters and still images
 }
 
 .scene:nth-child(2) .info header {
-	background-image: url(../img/still02.jpg);
+	background-image: url("../img/clientes/print/gastro.jpg");
+	background-size: 100%;
 }
 
 .scene:nth-child(3) .info header {
-	background-image: url(../img/still03.jpg);
+	background-image: url("../img/clientes/print/ipan.jpg");
+	background-size: 100%;
 }
 
 /*************************************
