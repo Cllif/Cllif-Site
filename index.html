@@ -1,40 +1,64 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Cllif - Desing plus WEB</title>
+	<title>Cllif - Design plus WEB</title>
 	<meta name="description" content="Somos apaixonados pela WEB, impulsionados polos codigos e inspirados por pessoas"/>
 
 	<!-- Style -->
 	<link rel="stylesheet" href="assets/style/normalize.css">
 	<link rel="stylesheet" href="assets/style/jquery.maximage.css">
 	<link rel="stylesheet" href="assets/style/component.css">
-	<link rel="stylesheet" href="assets/style/">
 	<link rel="stylesheet" href="assets/style/style.css">
-	
+	<link rel="stylesheet" href="assets/fontello/fontello.css">
+	<link rel="stylesheet" href="assets/style/jquery.custombox.css">
 
 </head>
 <body>
+	<!-- Start -menu- -->
+	<nav class="menu">
+		<a href="#" onclick="$('html,body').animate({scrollTop:$('#home').offset().top}, 1500);" class="transform" title="Vá até a home." target="_self"><i class="ico-menu transform icon-home"></i></a>
+		<a href="#" onclick="$('html,body').animate({scrollTop:$('#empresa').offset().top}, 1500);" class="transform" target="_self" title="Quem somos? Nos conheça!" target="_self"><i class="ico-menu transform icon-users"></i></a>
+		<a href="#" onclick="$('html,body').animate({scrollTop:$('#portfolio').offset().top}, 1500);" class="transform" title="Veja nosso portfólio!" target="_self"><i class="ico-menu transform icon-folder-open"></i></a>
+		<a href="#" onclick="$('html,body').animate({scrollTop:$('#contato').offset().top}, 1500);" class="transform" title="Nos mande uma mensagem." target="_self"><i class="ico-menu transform icon-mail-alt"></i></a>
+	</nav>
+	<!-- End -menu- -->
 	
 	<!-- Start -home- -->
-		<!-- BG Home --><div id="bg-home"><img src="assets/img/comp/bg-home.jpg" alt="" /></div>
+		<!-- BG Home -->
+		<div id="bg-arrows">
+			<a href="" id="arrow_left" class="arrow-bg transform"></a>
+			<a href="" id="arrow_right" class="arrow-bg transform"></a>
+		</div>
+		<div id="bg-home">
+			<img src="assets/img/comp/bg-home.jpg" alt="Home Background"/>
+			<img src="assets/img/comp/bg-home2.jpg" alt="Home Background"/>
+			<img src="assets/img/comp/bg-home3.jpg" alt="Home Background"/>
+		</div>
 
-		<section class="home page content center">
+		<section class="home page content center" id="home">
 			<div class="logo center"><img src="assets/img/logo1.png" height="245" width="246" alt=""></div>
 			<div class="text-home center"></div>
-			<div class="down transform"></div>
+			<a href="#" onclick="$('html,body').animate({scrollTop:$('#empresa').offset().top}, 1500);" class="transform" target="_self" title="Quem somos? Nos conheça!" target="_self"><div class="down transform"></div></a>
 		</section>
 	<!-- End -home- -->
 
 	<!-- Start -nos- -->
-		<section class="nos page">
+		<section class="nos page" id="empresa">
 			<section class="content center">
 				<div class="logo-nos center"><img src="assets/img/logo.png" height="116" width="226" alt=""></div>
+				<div id="ico-empresa">
+					<span class="mostra-span icon-users" target="1" title="Quem Somos"></span>
+					<span class="mostra-span icon-rocket" target="2" title="Nossa Missão"></span>
+				</div>
 				<div id="bola-content">
 					<div class="bola-content-aspa" id="bola-content-aspa-top"></div>
-					<span id="bola-content-txt">
+					<span id="span1" class="bola-content-txt esconde-span" target="1">
 							<strong>Não somos uma agência, somos uma ideia.</strong> <br> 
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, maiores, enim consectetur voluptatibus totam delectus tempora exercitationem ad numquam cupiditate nisi quo expedita veniam repudiandae corrupti ut ea error nam.
+					</span>
+					<span id="span2" class="bola-content-txt esconde-span" target="2">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, maiores, enim consectetur voluptatibus totam delectus tempora exercitationem ad numquam cupiditate nisi quo expedita veniam repudiandae corrupti ut ea error nam.</p>
 					</span>
 			     <div class="bola-content-aspa" id="bola-content-aspa-bottom"></div>
 			    </div>
@@ -60,7 +84,7 @@
 	<!-- End -nos- -->
 
 	<!-- Start -Clientes- -->
-		<section class="clientes page">
+		<section class="clientes page" id="portfolio">
 			<div class="clientes-title"><h1>clientes</h1></div>
 			<div class="clientes-content center">
 				
@@ -79,7 +103,7 @@
 							        <span class="rating">2012</span>
 							      </header>
 							      <p>
-							        Ver Mais
+							        <a href="#modal" id="example">Ver Mais</a>
 							      </p>
 							    </div>
 							  </div>
@@ -184,10 +208,32 @@
 		</section>
 	<!-- End -Clientes- -->
 
+	<!-- Start -contato- -->
+	<section id="contato">
+	</section>
+	<!-- End -contato- -->
+
+
+	<div id="modal" style="display: none;">
+        <div class="modal-example-header">
+            <button type="button" class="close" onclick="$.fn.custombox('close');">&times;</button>
+            <h4>jQuery Custombox</h4>
+        </div>
+        <div class="modal-example-body">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+
+
 	<!-- Script -->
 	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/jquery.maximage.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/jquery.maximage.js"></script>
+	<script src="assets/js/jquery.cycle.all.js"></script>
+	<script src="assets/js/jquery.custombox.js"></script>
+	<script>
 
+
+	</script>
 </body>
 </html>
